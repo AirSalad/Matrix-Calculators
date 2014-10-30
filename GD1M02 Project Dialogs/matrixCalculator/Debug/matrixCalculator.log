@@ -1,0 +1,20 @@
+﻿Build started 22/10/2014 4:01:00 p.m..
+     1>Project "H:\Assignments\Matrix Calculators\GD1M02 Project Dialogs\matrixCalculator\matrixCalculator.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "H:\Assignments\Matrix Calculators\GD1M02 Project Dialogs\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\GD1M02Calculator.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\matrixCalculator.res" matrixCalculator.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\GD1M02Calculator.exe.embed.manifest.res" Debug\GD1M02Calculator_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Assignments\Matrix Calculators\GD1M02 Project Dialogs\Debug\GD1M02Calculator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GD1M02Calculator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Assignments\Matrix Calculators\GD1M02 Project Dialogs\Debug\GD1M02Calculator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Assignments\Matrix Calculators\GD1M02 Project Dialogs\Debug\GD1M02Calculator.lib" /MACHINE:X86 Debug\matrixCalculator.res
+         Debug\GD1M02Calculator.exe.embed.manifest.res
+     1>LINK : error LNK2001: unresolved external symbol _WinMainCRTStartup
+     1>H:\Assignments\Matrix Calculators\GD1M02 Project Dialogs\Debug\GD1M02Calculator.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "H:\Assignments\Matrix Calculators\GD1M02 Project Dialogs\matrixCalculator\matrixCalculator.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.78
